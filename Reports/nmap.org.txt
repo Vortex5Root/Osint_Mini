@@ -1,0 +1,365 @@
+                                                       
+ _ __   _ __ ___    __ _  _ __       ___   _ __   __ _ 
+| '_ \ | '_ ` _ \  / _` || '_ \     / _ \ | '__| / _` |
+| | | || | | | | || (_| || |_) | _ | (_) || |   | (_| |
+|_| |_||_| |_| |_| \__,_|| .__/ (_) \___/ |_|    \__, |
+                         |_|                     |___/ 
+
+       __    ____   _   _  ____       _                                _                 ____                     _  _        
+       \ \  |  _ \ | \ | |/ ___|   __| | _   _  _ __ ___   _ __   ___ | |_   ___  _ __  |  _ \   ___  ___  _   _ | || |_  ___ 
+ _____  \ \ | | | ||  \| |\___ \  / _` || | | || '_ ` _ \ | '_ \ / __|| __| / _ \| '__| | |_) | / _ \/ __|| | | || || __|/ __|
+|_____| / / | |_| || |\  | ___) || (_| || |_| || | | | | || |_) |\__ \| |_ |  __/| |    |  _ < |  __/\__ \| |_| || || |_ \__ \
+       /_/  |____/ |_| \_||____/  \__,_| \__,_||_| |_| |_|| .__/ |___/ \__| \___||_|    |_| \_\ \___||___/ \__,_||_| \__||___/
+                                                          |_|                                                                 
+
+[@] Target: nmap.org
+
+[*] DNS Servers
+
+- Domain: ns4.linode.com.
+        - IP: 162.159.26.99
+        - Reverse DNS: ns4.linode.com
+        - AS: CLOUDFLARENETunknown
+        - ISP: 
+        - Country: unknown
+        - Header: 
+
+        - Domain: ns3.linode.com.
+        - IP: 162.159.25.129
+        - Reverse DNS: ns3.linode.com
+        - AS: CLOUDFLARENETunknown
+        - ISP: 
+        - Country: unknown
+        - Header: 
+
+        - Domain: ns5.linode.com.
+        - IP: 162.159.24.25
+        - Reverse DNS: ns5.linode.com
+        - AS: CLOUDFLARENETunknown
+        - ISP: 
+        - Country: unknown
+        - Header: 
+
+        - Domain: ns2.linode.com.
+        - IP: 162.159.24.39
+        - Reverse DNS: ns2.linode.com
+        - AS: CLOUDFLARENETunknown
+        - ISP: 
+        - Country: unknown
+        - Header: 
+
+        - Domain: ns1.linode.com.
+        - IP: 162.159.27.72
+        - Reverse DNS: ns1.linode.com
+        - AS: CLOUDFLARENETunknown
+        - ISP: 
+        - Country: unknown
+        - Header: 
+
+        
+[*] MX Records
+
+- Domain: 5 ALT2.ASPMX.L.GOOGLE.COM.
+        - IP: 64.233.186.27
+        - Reverse DNS: cb-in-f27.1e100.net
+        - AS: GOOGLEUnited
+        - ISP: States
+        - Country: United States
+        - Header: ALT2.ASPMX.L.GOOGLE.COM.
+
+        - Domain: 10 ASPMX2.GOOGLEMAIL.COM.
+        - IP: 108.177.12.26
+        - Reverse DNS: ua-in-f26.1e100.net
+        - AS: GOOGLEUnited
+        - ISP: States
+        - Country: United States
+        - Header: ASPMX2.GOOGLEMAIL.COM.
+
+        - Domain: 1 ASPMX.L.GOOGLE.COM.
+        - IP: 64.233.185.27
+        - Reverse DNS: yb-in-f27.1e100.net
+        - AS: GOOGLEUnited
+        - ISP: States
+        - Country: United States
+        - Header: ASPMX.L.GOOGLE.COM.
+
+        - Domain: 10 ASPMX3.GOOGLEMAIL.COM.
+        - IP: 64.233.186.26
+        - Reverse DNS: cb-in-f26.1e100.net
+        - AS: GOOGLEUnited
+        - ISP: States
+        - Country: United States
+        - Header: ASPMX3.GOOGLEMAIL.COM.
+
+        - Domain: 5 ALT1.ASPMX.L.GOOGLE.COM.
+        - IP: 108.177.12.27
+        - Reverse DNS: ua-in-f27.1e100.net
+        - AS: GOOGLEUnited
+        - ISP: States
+        - Country: United States
+        - Header: ALT1.ASPMX.L.GOOGLE.COM.
+
+        
+[*] TXT Records
+
+
+- "google-site-verification=SrtYpJGxZzMTcczZG44XtLVK-sEPit9bputDjWc0lF4"
+- "v=spf1 a mx ptr ip4:45.33.49.119 ip6:2600:3c01::f03c:91ff:fe98:ff4e ip6:2600:3c01:e000:3e6::6d4e:7061 include:_spf.google.com ~all"
+[*] Host Records
+
+- Domain: scanme.nmap.org
+        - IP: 45.33.32.156
+        - Reverse DNS: scanme.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.7 (Ubuntu)SSH: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13HTTP TECH: UbuntuApache,2.4.7GAnalytics,11009417GAdsense,0078565546631069
+
+        - Domain: scannme.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: research.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: ack.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: svn.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: issues.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: www.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        - Domain: wwww.nmap.org
+        - IP: 45.33.49.119
+        - Reverse DNS: ack.nmap.org
+        - AS: LINODE-AP
+        - ISP: Linode, LLC
+        - Country: United States
+        - Header: Apache/2.4.6 (CentOS)HTTPS: Apache/2.4.6 (CentOS)SSH: SSH-2.0-OpenSSH_7.4HTTP TECH: CentOSApache,2.4.6HTTPS TECH: CentOSApache,2.4.6
+
+        
+                                                     _   _  __  __     _     ____                __     __      ____
+                                                    | \ | ||  \/  |   / \   |  _ \           ___ \ \   / /   _ |  _ \
+                                                    |  \| || |\/| |  / _ \  | |_) |   _____ / __| \ \ / /   (_)| |_) |
+                                                    | |\  || |  | | / ___ \ |  __/   |_____|\__ \  \ V /     _ |  __/
+                                                    |_| \_||_|  |_|/_/   \_\|_|             |___/   \_/     (_)|_|
+
+
+                                                     _  _    ____      _____  _____     _  _     ___      _  _   ___
+                                                    | || |  | ___|    |___ / |___ /    | || |   / _ \    / |/ | / _ \
+                                                    | || |_ |___ \      |_ \   |_ \    | || |_ | (_) |   | || || (_) |
+                                                    |__   _| ___) | _  ___) | ___) | _ |__   _| \__, | _ | || | \__, |
+                                                       |_|  |____/ (_)|____/ |____/ (_)   |_|     /_/ (_)|_||_|   /_/
+
+
+        22/TCP - ssh|OpenSSH/7.4 [open]
+
+            cpe:/a:openbsd:openssh:7.4:
+                MSF:ILITIES/UBUNTU-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/SUSE-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/SUSE-CVE-2019-25017/	5.8	https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2019-25017/	*EXPLOIT*
+                MSF:ILITIES/REDHAT_LINUX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/REDHAT-OPENSHIFT-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/REDHAT-OPENSHIFT-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/OPENBSD-OPENSSH-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/IBM-AIX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/IBM-AIX-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/GENTOO-LINUX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/GENTOO-LINUX-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/F5-BIG-IP-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/DEBIAN-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/CENTOS_LINUX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/AMAZON_LINUX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/AMAZON_LINUX-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2019-6111/	*EXPLOIT*
+                MSF:ILITIES/ALPINE-LINUX-CVE-2019-6111/	5.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2019-6111/	*EXPLOIT*
+                EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
+                EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
+                EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
+                CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
+                SSH_ENUM	5.0	https://vulners.com/canvas/SSH_ENUM	*EXPLOIT*
+                PACKETSTORM:150621	5.0	https://vulners.com/packetstorm/PACKETSTORM:150621	*EXPLOIT*
+                MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS	5.0	https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS	*EXPLOIT*
+                EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	5.0	https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	*EXPLOIT*
+                EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	5.0	https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	*EXPLOIT*
+                EDB-ID:45939	5.0	https://vulners.com/exploitdb/EDB-ID:45939	*EXPLOIT*
+                CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+                CVE-2018-15473	5.0	https://vulners.com/cve/CVE-2018-15473
+                CVE-2017-15906	5.0	https://vulners.com/cve/CVE-2017-15906
+                1337DAY-ID-31730	5.0	https://vulners.com/zdt/1337DAY-ID-31730	*EXPLOIT*
+                EDB-ID:45233	4.6	https://vulners.com/exploitdb/EDB-ID:45233	*EXPLOIT*
+                CVE-2020-14145	4.3	https://vulners.com/cve/CVE-2020-14145
+                CVE-2019-6110	4.0	https://vulners.com/cve/CVE-2019-6110
+                CVE-2019-6109	4.0	https://vulners.com/cve/CVE-2019-6109
+                CVE-2018-20685	2.6	https://vulners.com/cve/CVE-2018-20685
+                PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
+                EDB-ID:46193	0.0	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
+                1337DAY-ID-32009	0.0	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
+                1337DAY-ID-30937	0.0	https://vulners.com/zdt/1337DAY-ID-30937	*EXPLOIT*
+        25/TCP - smtp|Postfix smtpd/ [open]
+
+
+
+        80/TCP - http|Apache httpd/2.4.6 [open]
+
+            cpe:/a:apache:http_server:2.4.6:
+                CVE-2017-7679	7.5	https://vulners.com/cve/CVE-2017-7679
+                CVE-2017-3167	7.5	https://vulners.com/cve/CVE-2017-3167
+                PACKETSTORM:127546	6.8	https://vulners.com/packetstorm/PACKETSTORM:127546	*EXPLOIT*
+                EDB-ID:34133	6.8	https://vulners.com/exploitdb/EDB-ID:34133	*EXPLOIT*
+                CVE-2018-1312	6.8	https://vulners.com/cve/CVE-2018-1312
+                CVE-2017-15715	6.8	https://vulners.com/cve/CVE-2017-15715
+                CVE-2014-0226	6.8	https://vulners.com/cve/CVE-2014-0226
+                1337DAY-ID-22451	6.8	https://vulners.com/zdt/1337DAY-ID-22451	*EXPLOIT*
+                CVE-2017-9788	6.4	https://vulners.com/cve/CVE-2017-9788
+                CVE-2019-0217	6.0	https://vulners.com/cve/CVE-2019-0217
+                EDB-ID:47689	5.8	https://vulners.com/exploitdb/EDB-ID:47689	*EXPLOIT*
+                CVE-2020-1927	5.8	https://vulners.com/cve/CVE-2020-1927
+                CVE-2019-10098	5.8	https://vulners.com/cve/CVE-2019-10098
+                1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+                CVE-2016-5387	5.1	https://vulners.com/cve/CVE-2016-5387
+                SSV:96537	5.0	https://vulners.com/seebug/SSV:96537	*EXPLOIT*
+                SSV:61874	5.0	https://vulners.com/seebug/SSV:61874	*EXPLOIT*
+                MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	5.0	https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	*EXPLOIT*
+                EXPLOITPACK:DAED9B9E8D259B28BF72FC7FDC4755A7	5.0	https://vulners.com/exploitpack/EXPLOITPACK:DAED9B9E8D259B28BF72FC7FDC4755A7	*EXPLOIT*
+                EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	5.0	https://vulners.com/exploitpack/EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	*EXPLOIT*
+                CVE-2020-1934	5.0	https://vulners.com/cve/CVE-2020-1934
+                CVE-2019-0220	5.0	https://vulners.com/cve/CVE-2019-0220
+                CVE-2018-17199	5.0	https://vulners.com/cve/CVE-2018-17199
+                CVE-2018-17189	5.0	https://vulners.com/cve/CVE-2018-17189
+                CVE-2018-1303	5.0	https://vulners.com/cve/CVE-2018-1303
+                CVE-2017-9798	5.0	https://vulners.com/cve/CVE-2017-9798
+                CVE-2017-15710	5.0	https://vulners.com/cve/CVE-2017-15710
+                CVE-2016-8743	5.0	https://vulners.com/cve/CVE-2016-8743
+                CVE-2016-2161	5.0	https://vulners.com/cve/CVE-2016-2161
+                CVE-2016-0736	5.0	https://vulners.com/cve/CVE-2016-0736
+                CVE-2015-3183	5.0	https://vulners.com/cve/CVE-2015-3183
+                CVE-2015-0228	5.0	https://vulners.com/cve/CVE-2015-0228
+                CVE-2014-3523	5.0	https://vulners.com/cve/CVE-2014-3523
+                CVE-2014-0231	5.0	https://vulners.com/cve/CVE-2014-0231
+                CVE-2014-0098	5.0	https://vulners.com/cve/CVE-2014-0098
+                CVE-2013-6438	5.0	https://vulners.com/cve/CVE-2013-6438
+                1337DAY-ID-28573	5.0	https://vulners.com/zdt/1337DAY-ID-28573	*EXPLOIT*
+                1337DAY-ID-26574	5.0	https://vulners.com/zdt/1337DAY-ID-26574	*EXPLOIT*
+                SSV:87152	4.3	https://vulners.com/seebug/SSV:87152	*EXPLOIT*
+                PACKETSTORM:127563	4.3	https://vulners.com/packetstorm/PACKETSTORM:127563	*EXPLOIT*
+                EDB-ID:47688	4.3	https://vulners.com/exploitdb/EDB-ID:47688	*EXPLOIT*
+                CVE-2020-11985	4.3	https://vulners.com/cve/CVE-2020-11985
+                CVE-2019-10092	4.3	https://vulners.com/cve/CVE-2019-10092
+                CVE-2018-1302	4.3	https://vulners.com/cve/CVE-2018-1302
+                CVE-2018-1301	4.3	https://vulners.com/cve/CVE-2018-1301
+                CVE-2016-4975	4.3	https://vulners.com/cve/CVE-2016-4975
+                CVE-2015-3185	4.3	https://vulners.com/cve/CVE-2015-3185
+                CVE-2014-8109	4.3	https://vulners.com/cve/CVE-2014-8109
+                CVE-2014-0118	4.3	https://vulners.com/cve/CVE-2014-0118
+                CVE-2014-0117	4.3	https://vulners.com/cve/CVE-2014-0117
+                CVE-2013-4352	4.3	https://vulners.com/cve/CVE-2013-4352
+                1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+                CVE-2018-1283	3.5	https://vulners.com/cve/CVE-2018-1283
+                CVE-2016-8612	3.3	https://vulners.com/cve/CVE-2016-8612
+                PACKETSTORM:140265	0.0	https://vulners.com/packetstorm/PACKETSTORM:140265	*EXPLOIT*
+                EDB-ID:42745	0.0	https://vulners.com/exploitdb/EDB-ID:42745	*EXPLOIT*
+                EDB-ID:40961	0.0	https://vulners.com/exploitdb/EDB-ID:40961	*EXPLOIT*
+                1337DAY-ID-601	0.0	https://vulners.com/zdt/1337DAY-ID-601	*EXPLOIT*
+                1337DAY-ID-2237	0.0	https://vulners.com/zdt/1337DAY-ID-2237	*EXPLOIT*
+                1337DAY-ID-1415	0.0	https://vulners.com/zdt/1337DAY-ID-1415	*EXPLOIT*
+                1337DAY-ID-1161	0.0	https://vulners.com/zdt/1337DAY-ID-1161	*EXPLOIT*
+         443/TCP - http|Apache httpd/2.4.6 [open]
+
+            cpe:/a:apache:http_server:2.4.6:
+                CVE-2017-7679	7.5	https://vulners.com/cve/CVE-2017-7679
+                CVE-2017-3167	7.5	https://vulners.com/cve/CVE-2017-3167
+                PACKETSTORM:127546	6.8	https://vulners.com/packetstorm/PACKETSTORM:127546	*EXPLOIT*
+                EDB-ID:34133	6.8	https://vulners.com/exploitdb/EDB-ID:34133	*EXPLOIT*
+                CVE-2018-1312	6.8	https://vulners.com/cve/CVE-2018-1312
+                CVE-2017-15715	6.8	https://vulners.com/cve/CVE-2017-15715
+                CVE-2014-0226	6.8	https://vulners.com/cve/CVE-2014-0226
+                1337DAY-ID-22451	6.8	https://vulners.com/zdt/1337DAY-ID-22451	*EXPLOIT*
+                CVE-2017-9788	6.4	https://vulners.com/cve/CVE-2017-9788
+                CVE-2019-0217	6.0	https://vulners.com/cve/CVE-2019-0217
+                EDB-ID:47689	5.8	https://vulners.com/exploitdb/EDB-ID:47689	*EXPLOIT*
+                CVE-2020-1927	5.8	https://vulners.com/cve/CVE-2020-1927
+                CVE-2019-10098	5.8	https://vulners.com/cve/CVE-2019-10098
+                1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+                CVE-2016-5387	5.1	https://vulners.com/cve/CVE-2016-5387
+                SSV:96537	5.0	https://vulners.com/seebug/SSV:96537	*EXPLOIT*
+                SSV:61874	5.0	https://vulners.com/seebug/SSV:61874	*EXPLOIT*
+                MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	5.0	https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	*EXPLOIT*
+                EXPLOITPACK:DAED9B9E8D259B28BF72FC7FDC4755A7	5.0	https://vulners.com/exploitpack/EXPLOITPACK:DAED9B9E8D259B28BF72FC7FDC4755A7	*EXPLOIT*
+                EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	5.0	https://vulners.com/exploitpack/EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	*EXPLOIT*
+                CVE-2020-1934	5.0	https://vulners.com/cve/CVE-2020-1934
+                CVE-2019-0220	5.0	https://vulners.com/cve/CVE-2019-0220
+                CVE-2018-17199	5.0	https://vulners.com/cve/CVE-2018-17199
+                CVE-2018-17189	5.0	https://vulners.com/cve/CVE-2018-17189
+                CVE-2018-1303	5.0	https://vulners.com/cve/CVE-2018-1303
+                CVE-2017-9798	5.0	https://vulners.com/cve/CVE-2017-9798
+                CVE-2017-15710	5.0	https://vulners.com/cve/CVE-2017-15710
+                CVE-2016-8743	5.0	https://vulners.com/cve/CVE-2016-8743
+                CVE-2016-2161	5.0	https://vulners.com/cve/CVE-2016-2161
+                CVE-2016-0736	5.0	https://vulners.com/cve/CVE-2016-0736
+                CVE-2015-3183	5.0	https://vulners.com/cve/CVE-2015-3183
+                CVE-2015-0228	5.0	https://vulners.com/cve/CVE-2015-0228
+                CVE-2014-3523	5.0	https://vulners.com/cve/CVE-2014-3523
+                CVE-2014-0231	5.0	https://vulners.com/cve/CVE-2014-0231
+                CVE-2014-0098	5.0	https://vulners.com/cve/CVE-2014-0098
+                CVE-2013-6438	5.0	https://vulners.com/cve/CVE-2013-6438
+                1337DAY-ID-28573	5.0	https://vulners.com/zdt/1337DAY-ID-28573	*EXPLOIT*
+                1337DAY-ID-26574	5.0	https://vulners.com/zdt/1337DAY-ID-26574	*EXPLOIT*
+                SSV:87152	4.3	https://vulners.com/seebug/SSV:87152	*EXPLOIT*
+                PACKETSTORM:127563	4.3	https://vulners.com/packetstorm/PACKETSTORM:127563	*EXPLOIT*
+                EDB-ID:47688	4.3	https://vulners.com/exploitdb/EDB-ID:47688	*EXPLOIT*
+                CVE-2020-11985	4.3	https://vulners.com/cve/CVE-2020-11985
+                CVE-2019-10092	4.3	https://vulners.com/cve/CVE-2019-10092
+                CVE-2018-1302	4.3	https://vulners.com/cve/CVE-2018-1302
+                CVE-2018-1301	4.3	https://vulners.com/cve/CVE-2018-1301
+                CVE-2016-4975	4.3	https://vulners.com/cve/CVE-2016-4975
+                CVE-2015-3185	4.3	https://vulners.com/cve/CVE-2015-3185
+                CVE-2014-8109	4.3	https://vulners.com/cve/CVE-2014-8109
+                CVE-2014-0118	4.3	https://vulners.com/cve/CVE-2014-0118
+                CVE-2014-0117	4.3	https://vulners.com/cve/CVE-2014-0117
+                CVE-2013-4352	4.3	https://vulners.com/cve/CVE-2013-4352
+                1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+                CVE-2018-1283	3.5	https://vulners.com/cve/CVE-2018-1283
+                CVE-2016-8612	3.3	https://vulners.com/cve/CVE-2016-8612
+                PACKETSTORM:140265	0.0	https://vulners.com/packetstorm/PACKETSTORM:140265	*EXPLOIT*
+                EDB-ID:42745	0.0	https://vulners.com/exploitdb/EDB-ID:42745	*EXPLOIT*
+                EDB-ID:40961	0.0	https://vulners.com/exploitdb/EDB-ID:40961	*EXPLOIT*
+                1337DAY-ID-601	0.0	https://vulners.com/zdt/1337DAY-ID-601	*EXPLOIT*
+                1337DAY-ID-2237	0.0	https://vulners.com/zdt/1337DAY-ID-2237	*EXPLOIT*
+                1337DAY-ID-1415	0.0	https://vulners.com/zdt/1337DAY-ID-1415	*EXPLOIT*
+                1337DAY-ID-1161	0.0	https://vulners.com/zdt/1337DAY-ID-1161	*EXPLOIT*
